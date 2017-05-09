@@ -120,6 +120,23 @@
 '\n' +
 '        <div id="secondaryToolbar" class="secondaryToolbar hidden doorHangerRight">\n' +
 '          <div id="secondaryToolbarButtonContainer">\n' +
+'                <span id="scaleSelectContainer" class="dropdownToolbarButton">\n' +
+'                  <select id="scaleSelect" title="Zoom" tabindex="23" data-l10n-id="zoom">\n' +
+'                    <option id="pageAutoOption" title="" value="auto" selected="selected" data-l10n-id="page_scale_auto">Zoom auto.</option>\n' +
+'                    <option id="pageActualOption" title="" value="page-actual" data-l10n-id="page_scale_actual">Tamaño real</option>\n' +
+'                    <option id="pageFitOption" title="" value="page-fit" data-l10n-id="page_scale_fit">Ajustar a pág.</option>\n' +
+'                    <option id="pageWidthOption" title="" value="page-width" data-l10n-id="page_scale_width">Ancho de pág.</option>\n' +
+'                    <option id="customScaleOption" title="" value="custom" disabled="disabled" hidden="true"></option>\n' +
+'                    <option title="" value="0.5" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 50 }\'>50%</option>\n' +
+'                    <option title="" value="0.75" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 75 }\'>75%</option>\n' +
+'                    <option title="" value="1" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 100 }\'>100%</option>\n' +
+'                    <option title="" value="1.25" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 125 }\'>125%</option>\n' +
+'                    <option title="" value="1.5" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 150 }\'>150%</option>\n' +
+'                    <option title="" value="2" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 200 }\'>200%</option>\n' +
+'                    <option title="" value="3" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 300 }\'>300%</option>\n' +
+'                    <option title="" value="4" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 400 }\'>400%</option>\n' +
+'                  </select>\n' +
+'                </span>\n' +
 '            <button id="secondaryPresentationMode" class="secondaryToolbarButton presentationMode" title="Cambiar a modo presentación" tabindex="51" data-l10n-id="presentation_mode">\n' +
 '              <span data-l10n-id="presentation_mode_label">Modo presentación</span>\n' +
 '            </button>\n' +
@@ -205,23 +222,6 @@
 '                    <span data-l10n-id="zoom_in_label">Zoom In</span>\n' +
 '                   </button>\n' +
 '                </div>\n' +
-'                <span id="scaleSelectContainer" class="dropdownToolbarButton">\n' +
-'                  <select id="scaleSelect" title="Zoom" tabindex="23" data-l10n-id="zoom">\n' +
-'                    <option id="pageAutoOption" title="" value="auto" selected="selected" data-l10n-id="page_scale_auto">Automatico</option>\n' +
-'                    <option id="pageActualOption" title="" value="page-actual" data-l10n-id="page_scale_actual">Actual</option>\n' +
-'                    <option id="pageFitOption" title="" value="page-fit" data-l10n-id="page_scale_fit">Ajustar</option>\n' +
-'                    <option id="pageWidthOption" title="" value="page-width" data-l10n-id="page_scale_width">Ancho</option>\n' +
-'                    <option id="customScaleOption" title="" value="custom" disabled="disabled" hidden="true"></option>\n' +
-'                    <option title="" value="0.5" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 50 }\'>50%</option>\n' +
-'                    <option title="" value="0.75" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 75 }\'>75%</option>\n' +
-'                    <option title="" value="1" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 100 }\'>100%</option>\n' +
-'                    <option title="" value="1.25" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 125 }\'>125%</option>\n' +
-'                    <option title="" value="1.5" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 150 }\'>150%</option>\n' +
-'                    <option title="" value="2" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 200 }\'>200%</option>\n' +
-'                    <option title="" value="3" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 300 }\'>300%</option>\n' +
-'                    <option title="" value="4" data-l10n-id="page_scale_percent" data-l10n-args=\'{ "scale": 400 }\'>400%</option>\n' +
-'                  </select>\n' +
-'                </span>\n' +
 '              </div>\n' +
 '              <div id="toolbarViewerRight">\n' +
 '                <button style="display:none" id="presentationMode" class="toolbarButton presentationMode hiddenLargeView" title="Cambiar a modo presentación" tabindex="31" data-l10n-id="presentation_mode">\n' +
