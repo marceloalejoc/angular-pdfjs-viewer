@@ -200,7 +200,7 @@
 '                <button id="viewFind" class="toolbarButton group hiddenSmallView" title="Buscar" tabindex="12" data-l10n-id="findbar">\n' +
 '                   <span data-l10n-id="findbar_label">Find</span>\n' +
 '                </button>\n' +
-'                <div class="splitToolbarButton">\n' +
+'                <div class="splitToolbarButton" style="display:none">\n' +
 '                  <button class="toolbarButton pageUp" title="Página anterior" id="previous" tabindex="13" data-l10n-id="previous">\n' +
 '                    <span data-l10n-id="previous_label">Previous</span>\n' +
 '                  </button>\n' +
@@ -224,7 +224,7 @@
 '                </div>\n' +
 '              </div>\n' +
 '              <div id="toolbarViewerRight">\n' +
-'                <button style="display:none" id="presentationMode" class="toolbarButton presentationMode hiddenLargeView" title="Cambiar a modo presentación" tabindex="31" data-l10n-id="presentation_mode">\n' +
+'                <button id="presentationMode" class="toolbarButton presentationMode hiddenLargeView" title="Cambiar a modo presentación" tabindex="31" data-l10n-id="presentation_mode">\n' +
 '                  <span data-l10n-id="presentation_mode_label">Presentation Mode</span>\n' +
 '                </button>\n' +
 '\n' +
